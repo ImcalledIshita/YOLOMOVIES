@@ -1,0 +1,531 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: black;
+    height: 15vh;
+}
+.logo
+{
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #D61C4E;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Antic Didone', serif;
+    padding: 0.5rem 1rem; 
+    cursor: pointer;
+}
+nav ul li a:hover
+{
+    background-color: burlywood;
+    transition: 0.3s;
+    padding: 0.6rem 1.1rem;
+}
+nav .user a
+{
+    border: none;
+    background-color: #D61C4E;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 5px ;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+nav .user i
+{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 20px;
+    margin-right: 10px;
+}
+nav .user a:hover
+{
+    background-color: burlywood;
+    transition: 0.3s;
+    padding: 0.6rem 1.1rem;
+}
+i:hover
+{
+    scale: 1.5 ;
+    transition: 0.3s;
+}
+.container
+{
+   position: relative;
+   height: 60vh;
+}
+.background
+{
+    position: absolute;
+    background-image: url(img/bg.png);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.heading
+{
+    position: relative;
+    display: inline-block ;
+    color: black;
+    font-family: 'Antic Didone', serif;
+    font-weight: bold;
+    margin-left: 34%;
+    padding-top: 100px;
+    z-index: 2;
+}
+.headings 
+{
+    position: relative;
+    color:#D61C4E;
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    line-height: 4;
+    z-index: 1;
+}
+.one
+{
+    background-color: #D61C4E;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.two
+{
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.firstpart
+{
+    background-color: black;
+    height: 100vh;
+    padding-top: 5%;
+}
+.extraction
+{
+    width: 50%;
+    height: 400px;
+    float: right;
+    margin-right: 5% ;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.firstpart h1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3;
+    color: #D61C4E;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.now h1
+{
+    font-weight: 500;
+    color: aliceblue;
+    letter-spacing: 1.3px;
+    margin-left: 8%;
+    padding-top: 5%;
+
+}
+.now h1 span
+{
+    color: yellow;
+}
+.now p
+{
+    color: aliceblue;
+    line-height: 2.5;
+    font-size: 1.5rem;
+    margin-left: 7%;
+}
+.now .btn1
+{
+    font-size: 1.5rem;
+    margin-left: 7%;
+}
+.now .btn1 a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color:aliceblue;
+    border-radius: 30px;
+}
+.now .btn1 a:hover
+{
+    background-color:blanchedalmond ;
+    padding: 15px 25px;
+    transition: 0.3s;
+}
+.btn1 i
+{
+    size: 1.5rem;
+    padding-right: 10px;
+}
+.latest
+{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 20px 30px;
+    position: absolute;
+
+}
+.latest h1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color:#D61C4E;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.latest-container
+{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+.latest-inside span
+{
+    color: gold;
+}
+.latest-inside img
+{
+    margin-top: 20px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 500ms ease-in-out;
+}
+.latest img:hover
+{
+    transform: scale(1.1);
+}
+.heading1
+{
+    color: aliceblue;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: 2px;
+}
+.heading1 h4
+{
+    font-size: 15px;
+}
+.heading1 h6
+{
+    font-size: 12px;
+}
+.btn2
+{
+    margin-top: -25px;
+    margin-left: 120px;
+}
+.btn2 a
+{
+    text-decoration: none;
+    background-color: #D61C4E;
+    color: aliceblue;
+    padding: 3px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.btn2 a:hover
+{
+    background-color: #B42B51 ;
+    transition: 0.3s;
+}
+.hollywood
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0px 10px;
+    color: aliceblue;
+    margin-top: 600px;
+}
+.hollywood h1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color:#D61C4E;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.hollywood-container
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading2
+{
+    color: aliceblue;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: 2px;   
+}
+.hollywood-inside h4
+{
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 15px ;
+    font-weight: 700;
+}
+.hollywood-inside img
+{
+    height: 250px;
+    width: 250px;
+    padding: 0px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.hollywood-inside img:hover
+{
+    transform: scale(1.1);
+}
+.imdb
+{
+    position: absolute;
+    background-color: #D61C4E;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 3px 4px;
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-right: 80px;
+    font-weight: bolder;
+}
+.more1
+{
+    margin-top: -350px;
+    margin-left: 1350px;
+
+}
+.more1 a
+{
+    text-decoration: none;
+    color: #D61C4E;
+    background-color: aliceblue;
+    padding: 5px 8px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+}
+.more1 a:hover
+{
+    background-color: blanchedalmond;
+    padding: 8px 11px;
+}
+.bollywood
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0px 10px;
+    color: aliceblue;
+    margin-top: 1150px;
+}
+.bollywood h1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color:#D61C4E;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.bollywood-container
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading3
+{
+    color: aliceblue;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: 2px;   
+}
+.bollywood-inside h4
+{
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 15px ;
+    font-weight: 700;
+}
+.bollywood-inside img
+{
+    height: 250px;
+    width: 250px;
+    padding: 0px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.bollywood-inside img:hover
+{
+    transform: scale(1.1);
+}
+.more2
+{
+    margin-top: -350px;
+    margin-left: 1350px;
+
+}
+.more2 a
+{
+    text-decoration: none;
+    color: #D61C4E;
+    background-color: aliceblue;
+    padding: 5px 8px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+}
+.more2 a:hover
+{
+    background-color: blanchedalmond;
+    padding: 8px 11px;
+}
+.disney
+{
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    color: aliceblue;
+    margin-top: 1700px;
+}
+.disney h1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color:#D61C4E;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.disney-container
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading4
+{
+    color: aliceblue;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: 2px;   
+}
+.disney-inside h4
+{
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 15px ;
+    font-weight: 700;
+}
+.disney-inside img
+{
+    height: 250px;
+    width: 250px;
+    padding: 0px 20px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.disney-inside img:hover
+{
+    transform: scale(1.1);
+}
+.scroll
+{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: #B42B51;
+    opacity: 0.7;
+    border-radius: 50px;
+    padding: 10px 15px;
+    bottom:40px;
+    right: 30px;
+    line-height: 1.5;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #191825;
+    margin-top: 2150px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.footer-inside
+{
+    margin-left: 20%;
+}
+.footer-inside i
+{
+    padding: 20px 30px;
+    margin-top: 8px;
+}
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container h3
+{
+    font-size: 1rem;
+    margin-right: 20%;
+    color: #D61C4E;
+}
+#movies
+{
+    scroll-behavior:;
+}
